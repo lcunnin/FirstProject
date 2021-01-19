@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T20:20:23.403Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.2.5" etag="LQ1HpbNT2SHeq38A-Xhg" type="github"><diagram id="4ks3DGEPLyr1VdRXDdb_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T20:41:54.736Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="k4n83AWi4waKttXv4sx_" version="14.2.5" type="github">
+  <diagram id="4ks3DGEPLyr1VdRXDdb_" name="Page-1">
+    <mxGraphModel dx="890" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-1" value="z" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="32" width="530" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="280" y="298" width="218" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="329" y="331" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="32" y="298" width="218" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/4web-3/139/menu-128.png" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="2" y="110" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.shoppingCart;strokeColor=#999999;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="480" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry y="170" width="530" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-7" value="Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="236" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2125/80/gallery-128.png" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="30" y="361" width="222" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-21" value="Cacti and Succulents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="81" y="313" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="81" y="333" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-27" value="Shop Collection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="91" y="338" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-28" value="z" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2125/80/gallery-128.png" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="276" y="361" width="222" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-30" value="Shop Collection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="339" y="338" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-29" value="Indoor Plants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="329" y="313" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry y="610" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-36" value="&lt;h1&gt;ABOUT THE SHOP&lt;/h1&gt;&lt;div&gt;The owner&#39;s story on how the shop came to be and the services offered.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
+          <mxGeometry x="32" y="638" width="468" height="122" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
