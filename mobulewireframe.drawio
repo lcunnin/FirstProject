@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T02:44:13.596Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="GmlockMKOnYn2VOr0OUE" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T02:51:10.055Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="D5pkj-CMl0LctkYb5xf-" version="14.2.5" type="github">
   <diagram id="4ks3DGEPLyr1VdRXDdb_" name="Page-1">
     <mxGraphModel dx="1113" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -148,15 +148,6 @@
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-87" value="Copyright 2021" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LTRvE4BRYarLr9ZSw9s9-1">
           <mxGeometry x="174.63" y="1308" width="190.75" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="KfPRQVcdiumOj6spdLpO-89" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.mobile" vertex="1" parent="1">
-          <mxGeometry x="150" y="1430" width="511" height="730" as="geometry" />
-        </mxCell>
-        <mxCell id="KfPRQVcdiumOj6spdLpO-90" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-128.png" vertex="1" parent="1">
-          <mxGeometry x="210" y="1510" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="KfPRQVcdiumOj6spdLpO-91" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.shoppingCart;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="542" y="1515" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
