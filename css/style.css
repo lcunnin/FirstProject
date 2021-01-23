@@ -1,0 +1,25 @@
+/*Paul Irish Reset: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Color constants */
+:root {
+    --font-primary: #344e41;
+    --heading-color: #3a5a40;
+    --background-primary: #d1c9ae;
+    --background-info-box: #68b0ab;
+}
+
+.shop-logo {
+    width: 100%;
+    font-size: 2.2rem;
+    text-align: center;
+}
