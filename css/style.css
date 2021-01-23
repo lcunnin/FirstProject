@@ -73,12 +73,14 @@ h2 {
 
 .visually-hidden {
     font-size: 1.75rem;
-    color: var(--font-primary: #344e41)
+    color: var(--font-primary)
 }
 
 .about-us {
     width: 600px;    
     background: var(--background-primary); 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about-us h2 {
@@ -87,7 +89,7 @@ h2 {
 }
 
 .about-us p {
-    
+
 }
 
 .shop-options {
