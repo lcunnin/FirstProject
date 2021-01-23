@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Plant Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/Bootstrap 5.0.0/">
     <link rel="stylesheet" href="./css/style.css">
-</head>
+  </head>
 <body>
     <header>
     <nav>
         <ul>
-            <li>Shop</a>
+            <li> <a class="shoplink" href="#">Shop</a>
             </li>
             <li>FAQ</li>
             <li>
@@ -20,71 +25,85 @@
     </nav>
     <div class="shop-logo">
         <h1>The Plant Shop</h1>
+      <div>
+        <img class="shop-logo-background" src="./css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Leafy plant background"/>
     </div>
-    <div>
-        <img class="shop-logo-image" src="./css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Leafy plant background"/>
     </div>
     </header>
     <main>
         <div>
-        <div class= "favorites-carousel">Current Favorites</div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item-succulent">
-                <img src="./css/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" class="hawthoria-fav" alt="A Hawthoria succulent plant">
-                <div class="carousel-hawthoria-caption d-none d-md-block">
-                  <h5>Hathoria</h5>
-                  <p>Found in our Cacti + Succulent Shop</p>
+        <div class= "favorites-carousel">
+            <h2>Our Current Favorites</h2>
+            <div id="carouselcaptions" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#succulent-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#houseplant-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#pet-friendly-carousel" data-bs-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item-succulent">
+                  <img src="./css/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" class="hawthoria-fav" alt="A Hawthoria succulent plant">
+                  <div class="carousel-hawthoria-caption d-none d-md-block">
+                    <h4>Hawthoria</h4>
+                    <p>Found in our Cacti + Succulent Shop</p>
+                  </div>
+                </div>
+                <div class="carousel-item-houseplant">
+                  <img src="./css/images/elle-lumiere-Dze_6fnPIKk-unsplash.jpg" class="houseplant-fav" alt="Rubber Tree houseplant">
+                  <div class="carousel-rubbertree-caption d-none d-md-block">
+                    <h4>Rubber Tree Houseplant</h4>
+                    <p>Found in our Houseplant Shop</p>
+                  </div>
+                </div>
+                <div class="carousel-item-pet-friendly">
+                  <img src="./css/images/sarah-bronske-rGpZ6RKefXU-unsplash.jpg" alt="A Snake plant">
+                  <div class="carousel-pet-friendly-caption d-none d-md-block">
+                    <h4>Snake Plant</h4>
+                    <p>Found in our Pet-Friendly Shop</p>
+                  </div>
                 </div>
               </div>
-              <div class="carousel-item-houseplant">
-                <img src="./css/images/elle-lumiere-Dze_6fnPIKk-unsplash.jpg" class="houseplant-fav" alt="Rubber Tree houseplant">
-                <div class="carousel-rubbertree-caption d-none d-md-block">
-                  <h5>Rubber Tree Houseplant</h5>
-                  <p>Found in our Houseplant Shop</p>
-                </div>
-              </div>
-              <div class="carousel-item-pet-friendly">
-                <img src="./css/images/sarah-bronske-rGpZ6RKefXU-unsplash.jpg" alt="A Snake plant">
-                <div class="carousel-pet-friendly-caption d-none d-md-block">
-                  <h5>Snake Plant</h5>
-                  <p>Found in our Pet-Friendly Shop</p>
-                </div>
-              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
-          </div>
+        </div>
     </div>
     <div class="about-us">
-        <h2>Welcome to our Plant Shop! A little about us...</h2>
-        <p>We are a family owned and operated plant shop in Denver, Colorado. We created The Plan Shop because we love plants and wanted to create a place where plant lovers feel welcome. We truly know how to make houseplants and succulents fluorish. </p>
+    
+      <h2>Welcome to our Plant Shop!</h2>
+      <p>A little about us...</p>
+      <p>We are a family owned and operated plant shop in Denver, Colorado. We created The Plan Shop because we love plants and wanted to create a place where plant lovers feel welcome. We truly know how to make houseplants and succulents fluorish.</p>
+    <div>
+      <img src="./css/images/pope-moysuh--X1uJR4FzgQ-unsplash.jpg" alt="Business Owner's picture">
+    </div>  
     </div>
-    <div class="shop-cacti" id='shoplink'>
-        <h3>Shop Cacti & Succulents</h3>
+  <section class="shop-options" id='shoplink'>
+    <div class="shop-cacti">
+        <h3>
+        <a href="cacti.html">Cacti & Succulents</a>
+        </h3>
         <img src="./css/images/mat-reding-F0ehv4gqqwY-unsplash.jpg" alt="A Cereus cactus">
     </div>
     <div class="shop-houseplants">
-        <a href="#"></a>
-        <h3>Shop Houseplants</h3>
+        <h3>
+        <a href="#">Shop Houseplants</a>
+        </h3>
         <img src="./css/images/lucian-alexe-Si8rYoK5tf0-unsplash.jpg" alt="A Spider plant on a table">
     </div>
     <div class="shop-petfriendly">
-        <a href="#"></a>
-        <h3>Shop Pet Friendly</h3>
+      <h3>
+        <a href="#">Pet Friendly</a>
+      </h3>
         <img src="./css/images/leonardo-baldissara-totibRS7MD0-unsplash.jpg" alt="Cat laying next to a houseplant">
+    </section>
     </div>
+    <div class="business-information">
     <div class="business-location">
         <h3>Denver Location</h3>
         <p>1450 Timberbrook Lane</p>
@@ -99,22 +118,25 @@
         <p>10am - 6pm</p>
     </div>
     <div class="Help">
-        <h3>Contact Us</h3>
+        <h3> 
+        <a href="contactus.html">Contact Us</a>
+      </h3>
     </div>
     <div class="subscribe-form">
         <h4>Sign up for our newsletter</h4>
         <input name="emailaddress" type="text" placeholder="">
         <button class="subscribe-button" type="submit">Subscribe</button>
     </div>
+    </div>
     </main>
     <footer>
-        <div class="socail-media">
+        <div class="social-media">
             Facebook Pinterest Instagram
         </div>
         <div class="copyright">
             Copyright (c) The Plant Shop
         </div>
     </footer>
-    <div class="back-to-top"></div>
+    <div class="back-to-top" class="fixed-circle">↑</div>
 </body>
 </html>
