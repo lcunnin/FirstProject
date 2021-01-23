@@ -11,24 +11,98 @@ html {
     box-sizing: inherit;
 }
 
-/* Color constants */
+/* Color constants https://coolors.co/faf3dd-bedacd-68b0ab-3a5a40-16221c */
 
 :root {
-    --font-primary: #344e41;
+    --font-primary: #16221c;
     --heading-color: #3a5a40;
-    --background-primary: #d1c9ae;
+    --background-primary: #bedacd;
     --background-info-box: #68b0ab;
+}
+
+body { 
+    font-family: 'Dosis', sans-serif;
+    color: #16221c;
+    background: var( --background-info-box); 
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .shop-logo {
     width: 100%;
     font-size: 5rem;
     text-align: center;
-    background: var(--background-info-box)
 }
 
-.shop-logo-image {
+.shop-logo-background {
     width: 100%;
 }
 
-.favorites-carousel
+.favorites-carousel {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.favorites-carousel p {
+    font-size: 2rem;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.visually-hidden {
+    font-size: 1.75rem;
+    color: var(--font-primary: #344e41)
+}
+
+.about-us {
+    width: 600px;    
+    background: var(--background-primary); 
+}
+
+.about-us h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about-us p {
+    
+}
+
+.shop-options {
+    width: 600px;
+    background-color: beige;
+    margin: 20px auto;
+}
+
+.shop-options h3 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.shop-options img {
+    width: 600px;
+    padding: 5px 10px 5px 10px;
+}
