@@ -1,4 +1,5 @@
 /*Paul Irish Reset: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
 html {
     box-sizing: border-box;
     font-size: 10px;
@@ -11,6 +12,7 @@ html {
 }
 
 /* Color constants */
+
 :root {
     --font-primary: #344e41;
     --heading-color: #3a5a40;
@@ -20,6 +22,13 @@ html {
 
 .shop-logo {
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 5rem;
     text-align: center;
+    background: var(--background-info-box)
 }
+
+.shop-logo-image {
+    width: 100%;
+}
+
+.favorites-carousel

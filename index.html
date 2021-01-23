@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Plant Shop</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
     <nav>
         <ul>
-            <li>
-                <a href="#shoplink">Shop</a>
+            <li>Shop</a>
             </li>
             <li>FAQ</li>
             <li>
@@ -23,23 +22,50 @@
         <h1>The Plant Shop</h1>
     </div>
     <div>
-        <img src="./css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Leafy plant background"/>
+        <img class="shop-logo-image" src="./css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Leafy plant background"/>
     </div>
     </header>
     <main>
         <div>
         <div class= "favorites-carousel">Current Favorites</div>
-        <div>
-            <div class="succulent-fav">
-                <img src="./css/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" alt="A Hawthoria succulent plant">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item-succulent">
+                <img src="./css/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" class="hawthoria-fav" alt="A Hawthoria succulent plant">
+                <div class="carousel-hawthoria-caption d-none d-md-block">
+                  <h5>Hathoria</h5>
+                  <p>Found in our Cacti + Succulent Shop</p>
+                </div>
+              </div>
+              <div class="carousel-item-houseplant">
+                <img src="./css/images/elle-lumiere-Dze_6fnPIKk-unsplash.jpg" class="houseplant-fav" alt="Rubber Tree houseplant">
+                <div class="carousel-rubbertree-caption d-none d-md-block">
+                  <h5>Rubber Tree Houseplant</h5>
+                  <p>Found in our Houseplant Shop</p>
+                </div>
+              </div>
+              <div class="carousel-item-pet-friendly">
+                <img src="./css/images/sarah-bronske-rGpZ6RKefXU-unsplash.jpg" alt="A Snake plant">
+                <div class="carousel-pet-friendly-caption d-none d-md-block">
+                  <h5>Snake Plant</h5>
+                  <p>Found in our Pet-Friendly Shop</p>
+                </div>
+              </div>
             </div>
-        </div>
-        <div class="houseplant-fav">
-            <img src="./css/images/sarah-bronske-rGpZ6RKefXU-unsplash.jpg" alt="A Snake houseplant">
-        </div>
-        <div class="plant-friendly">
-            <img src="./css/images/lucian-alexe-Si8rYoK5tf0-unsplash.jpg" alt="A Spider plant on a table">
-        </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
     </div>
     <div class="about-us">
         <h2>Welcome to our Plant Shop! A little about us...</h2>
