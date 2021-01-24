@@ -26,9 +26,19 @@ body {
     background: var( --background-info-box); 
 }
 
+nav {
+    color: var(--font-primary);
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+/* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
+
 h1 {
+    width: 100%;
     font-family: 'Dancing Script', cursive;
     color: black;
+    text-align: center;
 }
 
 h2 {
@@ -47,6 +57,12 @@ h2 {
 }
 
 /* Bootstrap Carousel https://getbootstrap.com/docs/5.0/components/carousel/ */
+
+/* Hawthoria Photo by Stephanie Harvey on "https://unsplash.com/collections/1287106/cactus-%2B-succulent-arrangements?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Rubber Tree by Elle Lumiere "https://unsplash.com/s/photos/rubber-tree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" #/
+
+/* Snake Plant Photo by Sarah Bronske "https://unsplash.com/s/photos/snake-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 .favorites-carousel {
     width: 100%;
@@ -78,8 +94,10 @@ h2 {
     color: var(--font-primary)
 }
 
+/* "Business Owner's Image" by Pope Moyush "https://unsplash.com/s/photos/people-in-nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
+
 .about-us {
-    width: 600px;  
+    width: 700px;  
     background: var(--background-primary); 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -95,8 +113,14 @@ h2 {
     font-size: 3rem;
 }
 
+/* Cactus image by Mat Reding "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Spider plant image by Lucian Alexe "https://unsplash.com/s/photos/spider-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
 .shop-options {
-    width: 600px;
+    width: 700px;
     background-color: beige;
     margin: 20px auto;
 }
@@ -108,13 +132,13 @@ h2 {
 }
 
 .shop-options img {
-    width: 600px;
+    width: 700px;
     padding: 5px 10px 5px 10px;
     border-color: var(--font-primary);
 }
 
 .business-information {
-    width: 600px;
+    width: 700px;
     margin: 20px auto;
     text-align: center;
 }
@@ -152,17 +176,20 @@ h2 {
     text-align: center;
     font-size: 1rem;
 }
-.fixed-circle {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
+
+.cacti-succulent-options h2 {
+    width: 100%;
+    font-size: 4rem;
     text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-.back-to-top {
 
 }
+
+.cacti-succulent-options h3 {
+    font-size: 3rem;
+}
+
+.cacti-succulent-options img {
+    width: 650px;
+}
+
+.contact-form
