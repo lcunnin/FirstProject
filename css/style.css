@@ -26,20 +26,7 @@ body {
     background: var( --background-info-box); 
 }
 
-nav {
-    color: var(--font-primary);
-    font-size: 1.5rem;
-    padding: 5px;
-}
-
 /* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
-
-h1 {
-    width: 100%;
-    font-family: 'Dancing Script', cursive;
-    color: black;
-    text-align: center;
-}
 
 h2 {
     font-size: 4rem;
@@ -50,12 +37,19 @@ h2 {
     width: 100%;
     font-size: 5rem;
     text-align: center;
-    background-image: url(../assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+    padding: 20px 0px 20px 0px;
 }
 
-.shop-logo-background {
-    background-image: url(../assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+.shop-name {
+    font-family: 'Dancing Script', cursive;
+    color: black;
 }
+
+.shop-logo {
+    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+}
+
 
 /* Bootstrap Carousel https://getbootstrap.com/docs/5.0/components/carousel/ */
 
@@ -117,17 +111,18 @@ h2 {
 /* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 
-.shop-cacti {
+.shop-cacti-image {
+    width: 300px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
-.shop-houseplants {
+.shop-houseplants-image {
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
-.shop-petfriendly {
+.shop-petfriendly-image {
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
