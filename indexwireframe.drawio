@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T03:50:32.587Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="ioOhjVlm9h-xwKX8IOv9" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-24T03:51:12.223Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="tgyDFbHAR3r7uR4BK9sX" version="14.2.7" type="github">
   <diagram id="4ks3DGEPLyr1VdRXDdb_" name="Page-1">
     <mxGraphModel dx="946" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LTRvE4BRYarLr9ZSw9s9-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="32" width="530" height="1348" as="geometry" />
+          <mxGeometry x="140" y="29" width="530" height="1348" as="geometry" />
         </mxCell>
         <mxCell id="LTRvE4BRYarLr9ZSw9s9-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
@@ -93,10 +93,10 @@
           <mxGeometry x="108.5" y="131" width="61.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-74" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
-          <mxGeometry x="2" y="920" width="528" height="220" as="geometry" />
+          <mxGeometry x="2" y="920" width="528" height="210" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-73" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
-          <mxGeometry x="2" y="1140" width="528" height="70" as="geometry" />
+          <mxGeometry x="2" y="1123" width="528" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-75" value="Location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
           <mxGeometry x="47.5" y="988" width="69" height="42" as="geometry" />
@@ -108,13 +108,13 @@
           <mxGeometry x="396.5" y="988" width="69" height="42" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-79" value="Sign up for our newsletter." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
-          <mxGeometry x="150" y="1145" width="240" height="20" as="geometry" />
+          <mxGeometry x="150" y="1128" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-80" value="Email" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
-          <mxGeometry x="27" y="1165" width="370" height="30" as="geometry" />
+          <mxGeometry x="27" y="1148" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-83" value="Suscribe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
-          <mxGeometry x="419" y="1170" width="40" height="20" as="geometry" />
+          <mxGeometry x="419" y="1153" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KfPRQVcdiumOj6spdLpO-86" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-128.png" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
           <mxGeometry x="371.5" y="1223.75" width="68.5" height="68.5" as="geometry" />
