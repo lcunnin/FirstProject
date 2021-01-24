@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T04:35:29.058Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="C_iiKhKtgFJjMiI1IaS2" version="14.2.5" type="github"><diagram id="4ks3DGEPLyr1VdRXDdb_" name="Page-1">7Zpdd9o4EIZ/DZf42PIH5jIQ6O7ZdJsm3Xa7d8KWQY1t+UgiwP76lWzZYEtsaIqTtAmcA3hkJHued0YjwcCdZtt3FBar9yRG6QDY8XbgXg4AGHuBeJWGXWXw/XFlWFIcVyZnb7jF/yJltJV1jWPEWidyQlKOi7YxInmOIt6yQUrJpn1aQtL2qAVcIs1wG8FUt37BMV9V1tC39/bfEF6u6pEdW7VksD5ZGdgKxmRzYHJnA3dKCeHVp2w7Ran0Xe2X6nvzI63NhVGU81O+cPXp5n7mTW6+QnpFx//cbsZsPFS93MN0rW5YXSzf1R5gnJK75uadgTtp7sQWBzFkKxSrA5jiZS4+R+KaEBWGFc/S/bcK2WW2XUqlWBmJ7taFJcBxiHNEmbWQuBD9gvOy+wlVcpA9V1cxJSmh5WW5Qflot4CqybbDKEnaTW7VFHnyKZoyMeYntK08N5WDoWhNGb5HN4jth9WdXHsMUY62Bybl9HeIZIjTnTilbvWUAFQEOGN1vNnryXeVbXWoJbvWElQiXjad7zmLDwr1d2AHGvZrGQfAdp4RP8yjlaQ7SYRNoXdG6thEvh4uRQk3svpfyZ8MMOjwAxo+xzHgA0FP8FwN3opzmQ4vZL9gvtlsrJjCjYXJS6B5GMUvjKzjttEGemQC/ynR+g+nY3l3WMxPV3CB0mvCMMdEumpBOCfZo4HW3V6oczgpmgTakYsJfIZZZLEVKQqcL6eQclPKHpePHnl6YTdUdaCegad3hjz7R3J98/FzFON19uFbwIr4qvgwdPVY1UNSeRRnZSnyMJQHFZDKhgmM7paUrPP4gEBSPsQp5WAXrKhKplIc9UGCt1IxE3U9l+3kEsW5bWER54mYpREVEZ8Jaww5FG/SzsQ7Q3wIi2KI84iiGC9SJK3AEy+/y16HtjN0QGgV+bK30B6NrXo2U2oArq4GJwSGibc2nl0Pnl5v3Yqg0TTBy8qklXBbwZSTXEolwWnaMWkx3tVQhuNYDjPZrDBHtwWM5JgbEcwyV0u9NPmiNzae5bfj1EDGFKegrzj19ILoYkHW/JWB6VY6z45FT5/zi4+vDEpTXDZUnGem4mlUprLuE7MHsP9irw2PH2rZTAcUOPVJT4IoDH7BusN5sO5IyZLwXVFWG650oahGhXAQ432XG+5IAG6XG6EhewahSQZ76/mFcMKK4qcTgvdwAUoiDNNhJopPOJSqYEMREXNfrt3nARCFKeNQLGCyvnUBXNAtQ0PXtYBvkIZJGH3JQk/hP78sHpEfEjFhLAi56301YtunysCwHqlt55fByDCTFztaDg1s8dT3A3/x2XzkWYHXAjUWyxUDKGdsW6Oe5nQ2jO8Wu6+zP0f48wx+Qzn5e3LKVn3bRyYvHmA74ppTvaq7UPnL80LNWcb97WY9fnZX6dVPU6C+YDWfEcWxhbbnB7qQbb+v2tQIR19qzzFlMt/kMEMaofam85Gdze6upMjpXICEhUVpOXs0u9C+mebxvcrOVjQTHLGYKMQV+Z0Nbc+woT0dBaPLPgm314ZeqPMFptjrLfT0FfsVfIP7OLjd/Rgj3eAp6epl4yyDOH3j+iNB6wMdq2/6RbE3rPoi8T1irPxF+A3sD4ANTgTr2N9f4YvD/X9HyraDP+C4s/8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-24T03:46:10.832Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="s7e5XTARXLyDUXWQ57CV" version="14.2.7" type="github">
+  <diagram id="4ks3DGEPLyr1VdRXDdb_" name="Page-1">
+    <mxGraphModel dx="1347" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="190" width="530" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LTRvE4BRYarLr9ZSw9s9-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.shoppingCart;strokeColor=#999999;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="480" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPRQVcdiumOj6spdLpO-41" value="Navbar" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="14.5" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPRQVcdiumOj6spdLpO-86" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/pinterest-128.png" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="371.51" y="830" width="68.5" height="68.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPRQVcdiumOj6spdLpO-85" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-128.png" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="232.01" y="833.25" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPRQVcdiumOj6spdLpO-84" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/facebook-128.png" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="100.01" y="833.25" width="62" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPRQVcdiumOj6spdLpO-87" value="Copyright 2021" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="174.64" y="914.25" width="190.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry y="448" width="530" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-6" value="Contact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="14.5" y="456" width="105.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-2" value="First name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="10" y="486" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-3" value="Last name" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="260" y="486" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-4" value="Email" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="10" y="526" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-dkbyYEN7iVEajenoXB-5" value="Message" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=none;strokeColor=#999999;align=left;spacing=15;fontSize=14;fontColor=#6C767D;" parent="LTRvE4BRYarLr9ZSw9s9-1" vertex="1">
+          <mxGeometry x="10" y="566" width="510" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
