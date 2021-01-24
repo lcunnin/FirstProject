@@ -1,0 +1,214 @@
+/*Paul Irish Reset: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Color constants https://coolors.co/faf3dd-bedacd-68b0ab-3a5a40-16221c */
+
+:root {
+    --font-primary: #16221c;
+    --heading-color: #3a5a40;
+    --background-primary: #bedacd;
+    --background-info-box: #68b0ab;
+}
+
+body { 
+    font-family: 'Dosis', sans-serif;
+    color: #16221c;
+    background: var( --background-info-box); 
+}
+
+nav {
+    color: var(--font-primary);
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+/* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
+
+h1 {
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.shop-logo {
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    background-image: url(../assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+}
+
+.shop-logo-background {
+    background-image: url(../assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+}
+
+/* Bootstrap Carousel https://getbootstrap.com/docs/5.0/components/carousel/ */
+
+/* Hawthoria Photo by Stephanie Harvey on "https://unsplash.com/collections/1287106/cactus-%2B-succulent-arrangements?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Rubber Tree by Elle Lumiere "https://unsplash.com/s/photos/rubber-tree?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" #/
+
+/* Snake Plant Photo by Sarah Bronske "https://unsplash.com/s/photos/snake-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+.favorites-carousel {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.favorites-carousel p {
+    font-size: 2rem;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.visually-hidden {
+    font-size: 1.75rem;
+    color: var(--font-primary)
+}
+
+/* "Business Owner's Image" by Pope Moyush "https://unsplash.com/s/photos/people-in-nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
+
+.about-us {
+    background: var(--background-primary); 
+}
+
+.about-us h2 {
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 3rem;
+}
+
+/* Cactus image by Mat Reding "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Spider plant image by Lucian Alexe "https://unsplash.com/s/photos/spider-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+/* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
+
+
+.shop-cacti {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.shop-houseplants {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.shop-petfriendly {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.business-information {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.business-information h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.business-information p {
+    font-size: 2.75rem;
+}
+
+.subscribe-form {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.subscribe-form h4 {
+    font-size: 4rem;
+}
+
+.subscribe-button {
+    margin-top: 15px;
+}
+
+.social-media {
+    background-color: var(--background-info-box);
+    width: 100%;
+    height: 40px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* cacti.html */
+
+.hawthoria-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.cactus-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.aloe-vera-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.cacti-succulent-options h2 {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.cacti-succulent-options h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cacti-succulent-options img {
+    width: 650px;
+}
+
+@media only screen and (min-width: 728) {
+    .shop-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

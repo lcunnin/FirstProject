@@ -5,29 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Plant Shop</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/Bootstrap 5.0.0/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" >
+    <link rel="stylesheet" href="./assets/Bootstrap 5.0.0/css">
     <link rel="stylesheet" href="./assets/style.css">
   </head>
 <body>
     <header>
-    <nav>
-        <ul>
-            <li> <a class="shoplink" href="#">Shop</a>
-            </li>
-            <li>FAQ</li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-        </ul>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Cacti + Succulents</a></li>
+                  <li><a class="dropdown-item" href="#">Houseplants</a></li>
+                  <li><a class="dropdown-item" href="#">Pet-Friendly</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="shop-logo">
         <h1>The Plant Shop</h1>
-      <div>
-        <img class="shop-logo-background" src="./assets/images/scott-webb-oRWRlTgBrPo-unsplash.jpg"/>
-    </div>
+        <img class="shop-logo-background" src="./assets/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Rubber Tree Plant background"/>
     </div>
     </header>
     <main>
@@ -75,15 +94,14 @@
         </div>
     </div>
     <div class="about-us">
-    
       <h2>Welcome to our Plant Shop!</h2>
       <p>A little about us...</p>
       <p>We are a family owned and operated plant shop in Denver, Colorado. We created The Plan Shop because we love plants and wanted to create a place where plant lovers feel welcome. We truly know how to make houseplants and succulents fluorish.</p>
+    </div>
     <div>
       <img src="./assets/images/pope-moysuh--X1uJR4FzgQ-unsplash.jpg" alt="Business Owner's picture">
     </div>  
-    </div>
-  <section class="shop-options" id='shoplink'>
+  <section class="shop-options">
     <div class="shop-cacti">
         <h3>
         <a href="cacti.html">Cacti & Succulents</a>
