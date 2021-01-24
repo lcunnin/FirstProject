@@ -26,20 +26,7 @@ body {
     background: var( --background-info-box); 
 }
 
-nav {
-    color: var(--font-primary);
-    font-size: 1.5rem;
-    padding: 5px;
-}
-
 /* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
-
-h1 {
-    width: 100%;
-    font-family: 'Dancing Script', cursive;
-    color: black;
-    text-align: center;
-}
 
 h2 {
     font-size: 4rem;
@@ -50,11 +37,19 @@ h2 {
     width: 100%;
     font-size: 5rem;
     text-align: center;
+    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+    padding: 20px 0px 20px 0px;
 }
 
-.shop-logo-background {
-    width: 100%;
+.shop-name {
+    font-family: 'Dancing Script', cursive;
+    color: black;
 }
+
+.shop-logo {
+    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+}
+
 
 /* Bootstrap Carousel https://getbootstrap.com/docs/5.0/components/carousel/ */
 
@@ -97,19 +92,15 @@ h2 {
 /* "Business Owner's Image" by Pope Moyush "https://unsplash.com/s/photos/people-in-nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
 
 .about-us {
-    width: 700px;  
     background: var(--background-primary); 
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .about-us h2 {
-    text-align: center;
     font-size: 4rem;
+    padding-bottom: 10px;
 }
 
 .about-us p {
-    text-align: center;
     font-size: 3rem;
 }
 
@@ -119,21 +110,20 @@ h2 {
 
 /* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
-.shop-options {
-    width: 700px;
-    background-color: beige;
-    margin: 20px auto;
+
+.shop-cacti-image {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
 }
 
-.shop-options h3 {
-    font-size: 3rem;
-    text-align: center;
-
+.shop-houseplants-image {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
 }
 
-.shop-options img {
-    width: 700px;
-    padding: 5px 10px 5px 10px;
+.shop-petfriendly-image {
+    padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
@@ -177,6 +167,23 @@ h2 {
     font-size: 1rem;
 }
 
+/* cacti.html */
+
+.hawthoria-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.cactus-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
+.aloe-vera-plant {
+    padding: 10px 10px 10px 10px;
+    border-color: var(--font-primary);
+}
+
 .cacti-succulent-options h2 {
     width: 100%;
     font-size: 4rem;
@@ -186,10 +193,17 @@ h2 {
 
 .cacti-succulent-options h3 {
     font-size: 3rem;
+    text-align: center;
 }
 
 .cacti-succulent-options img {
     width: 650px;
 }
 
-.contact-form
+@media only screen and (min-width: 728) {
+    .shop-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
