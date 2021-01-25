@@ -29,18 +29,25 @@ body {
 /* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
 
 .shop-name-container {
+    display: flex;
     position: relative;
     width: 100%
     padding: 20px 0px 20px 0px;
     font-family: 'Dancing Script', cursive;
-    font-size: 12rem;
+    font-size: 10rem;
     color: black;
     text-align: center;
 }
 
+.shop-name-background {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
 .shop-name-title {
     position: absolute;
-    top: 20%;
+    top: 10%;
     bottom: 40%;
     width: 100%;
 }
@@ -55,13 +62,12 @@ body {
 /* Snake Plant Photo by Sarah Bronske "https://unsplash.com/s/photos/snake-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 .favorites-carousel {
-    width: 100%;
     text-align: center;
     position: center;
     display: flex;
 }
 
-.favorites-carousel h2 {
+.favorites-carousel-header {
     font-size: 5rem;
     margin: 10px 0px 30px 0px;
 }
@@ -113,19 +119,19 @@ body {
 /* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 .shop-cacti-image {
-    width: 600px;
+    width: 400px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
 .shop-houseplants-image {
-    width: 600px;
+    width: 500px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
 .shop-petfriendly-image {
-    width: 600px;
+    height: 550px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
