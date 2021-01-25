@@ -28,26 +28,21 @@ body {
 
 /* Background Image by Scott Webb "https://unsplash.com/s/photos/plants?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" */
 
-h2 {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
-.shop-logo {
-    width: 100%;
-    font-size: 5rem;
-    text-align: center;
-    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+.shop-name-container {
+    position: relative;
+    width: 100%
     padding: 20px 0px 20px 0px;
-}
-
-.shop-name {
     font-family: 'Dancing Script', cursive;
+    font-size: 12rem;
     color: black;
+    text-align: center;
 }
 
-.shop-logo {
-    background-image: url(./assets/css/images/scott-webb-oRWRlTgBrPo-unsplash.jpg);
+.shop-name-title {
+    position: absolute;
+    top: 20%;
+    bottom: 40%;
+    width: 100%;
 }
 
 
@@ -61,13 +56,14 @@ h2 {
 
 .favorites-carousel {
     width: 100%;
-    font-size: 3rem;
     text-align: center;
-    position: relative;
+    position: center;
+    display: flex;
 }
 
-.favorites-carousel p {
-    font-size: 2rem;
+.favorites-carousel h2 {
+    font-size: 5rem;
+    margin: 10px 0px 30px 0px;
 }
 
 .carousel-indicators {
@@ -93,6 +89,8 @@ h2 {
 
 .about-us {
     background: var(--background-primary); 
+    width: 100%;
+    display: flex;
 }
 
 .about-us h2 {
@@ -104,6 +102,10 @@ h2 {
     font-size: 3rem;
 }
 
+.business-owner: {
+    width: 600px;
+}
+
 /* Cactus image by Mat Reding "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 /* Spider plant image by Lucian Alexe "https://unsplash.com/s/photos/spider-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
@@ -112,17 +114,19 @@ h2 {
 
 
 .shop-cacti-image {
-    width: 300px;
+    width: 600px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
 .shop-houseplants-image {
+    width: 600px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
 .shop-petfriendly-image {
+    width: 600px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
@@ -167,6 +171,14 @@ h2 {
     font-size: 1rem;
 }
 
+@media only screen and (min-width: 728) {
+    .shop-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 /* cacti.html */
 
 .hawthoria-plant {
@@ -200,10 +212,3 @@ h2 {
     width: 650px;
 }
 
-@media only screen and (min-width: 728) {
-    .shop-options {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
