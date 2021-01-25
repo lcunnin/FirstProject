@@ -112,7 +112,6 @@ body {
 
 /* Cat laying by houseplant image by Leonardo Baldissara "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
-
 .shop-cacti-image {
     width: 600px;
     padding: 10px 10px 10px 10px;
@@ -162,13 +161,64 @@ body {
 
 .social-media {
     background-color: var(--background-info-box);
-    width: 100%;
-    height: 40px;
+    padding: 20px 20px 20px 20px;
+    width: 90px;
+    position: center;
+    text-decoration: none;
+    display: flex;
 }
+
 
 .copyright {
     text-align: center;
-    font-size: 1rem;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* cacti.html */
+
+.hawthoria-plant {
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+}
+
+.cactus-plant {
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+}
+
+.aloe-vera-plant {
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+}
+
+.cacti-succulent-options h2 {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.cacti-succulent-options h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.shop-name-container {
+    display: flex;
+    position: center;
+}
+
+/* Contact Us */
+
+.contact-us {
+    font-size: 3rem;
+}
+
+.contact-form {
+    position: center;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 728) {
@@ -178,37 +228,3 @@ body {
         justify-content: center;
     }
 }
-
-/* cacti.html */
-
-.hawthoria-plant {
-    padding: 10px 10px 10px 10px;
-    border-color: var(--font-primary);
-}
-
-.cactus-plant {
-    padding: 10px 10px 10px 10px;
-    border-color: var(--font-primary);
-}
-
-.aloe-vera-plant {
-    padding: 10px 10px 10px 10px;
-    border-color: var(--font-primary);
-}
-
-.cacti-succulent-options h2 {
-    width: 100%;
-    font-size: 4rem;
-    text-align: center;
-
-}
-
-.cacti-succulent-options h3 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.cacti-succulent-options img {
-    width: 650px;
-}
-
