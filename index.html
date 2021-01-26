@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" >
-    <link rel="stylesheet" href="./assets/Bootstrap 5.0.0/css">
+    <link rel="stylesheet" href="./assets/Bootstrap%205.0.0/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/style.css">
   </head>
 <body>
@@ -15,29 +15,19 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">The Plant Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Shop
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="cacti.html">Cacti + Succulents</a></li>
-                  <li><a class="dropdown-item" href="#">Houseplants</a></li>
-                  <li><a class="dropdown-item" href="#">Pet-Friendly</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contactus.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
               </li>
             </ul>
           </div>
@@ -50,36 +40,36 @@
         <img class="shop-name-background" src="./assets/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Rubber Tree Background">
       </div>
      <section class="favorites-carousel">
-        <div class="favorites-carousel-header">
-        <h2>Our Current Favorites</h2>
-        </div>
-        <div id="favorite-carousel-indicators" class="carousel-slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-bs-target="#favorite-carousel-indicators"   data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#favorite-carousel-indicators" data-bs-slide-to="1"></li>
-            <li data-bs-target="#favorite-carousel-indicators" data-bs-slide-to="2"></li>
-          </ol>
+      <div class="favorites-carousel-header">
+      <h2>Our Current Favorites</h2>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" class="d-block w-100" alt="Hawthoria">
+            <img src="./assets/images/stephanie-harvey-T0inbt7nRME-unsplash.jpg" class="d-block w-100" alt="Hawthoria Plant">
           </div>
           <div class="carousel-item">
-           <img src="./assets/images/elle-lumiere-Dze_6fnPIKk-unsplash.jpg" class="d-block w-100" alt="Rubber Tree">
-         </div>           
-         <div class="carousel-item">
-            <img src="./assets/images/sarah-bronske-rGpZ6RKefXU-unsplash.jpg" class="d-block w-100" alt="Snake Plant">
+            <img src="./assets/images/elle-lumiere-Dze_6fnPIKk-unsplash.jpg" class="d-block w-100" alt="Rubber Tree Plant">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/jake-goossen-vOHuRvK6UXE-unsplash.jpg" class="d-block w-100" alt="Snake Plant">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#favorite-carousel-indicators" role="button" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#favorite-carousel-indicators" role="button" data-bs-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-       </a>
-       </div>
-     </section>
+        </a>
+      </div>
+      </section>
     <div class="about-us">
       <div>
         <h2>Welcome to our Plant Shop!</h2>
@@ -93,7 +83,7 @@
   <div class="shop-options">
     <div class="shop-cacti">
         <h3>
-        <a href="cacti.html">Cacti & Succulents</a>
+        <a id="sampleLink" href="cacti.html">Cacti & Succulents</a>
         </h3>
         <img class="shop-cacti-image" src="./assets/images/mat-reding-F0ehv4gqqwY-unsplash.jpg" alt="A Cereus cactus">
     </div>
@@ -138,14 +128,17 @@
     </main>
     <footer>
       <div class="social-media">
-        <img href="https://www.facebook.com/" src="./assets/images/facebook-square-brands.svg" class="facebook"></a> 
-        <img href="https://www.pinterest.com/" src="./assets/images/pinterest-square-brands.svg" class="pinterest"></a>
-        <img href="https://www.instagram.com/?hl=en" src="./assets/images/instagram-square-brands.svg" class="instagram"></a> 
+        <a href="https://www.facebook.com/"></a>
+        <img class="social-media-img" src="./assets/images/facebook-square-brands.svg" class="facebook">
+        <a href="https://www.pinterest.com/"></a>
+        <img class="social-media-img" src="./assets/images/pinterest-square-brands.svg" class="pinterest">
+        <a href="https://www.instagram.com/?hl=en"></a>
+        <img class="social-media-img" src="./assets/images/instagram-square-brands.svg" class="instagram">
       </div>
         <div class="copyright">
-            Copyright (c) The Plant Shop
+            Copyright © The Plant Shop
         </div>
     </footer>
-    <script src="./assets/Bootstrap 5.0.0/js/bootstrap.bundle.js"></script>
+    <script src="./assets/Bootstrap%205.0.0/js/bootstrap.bundle.js"></script>
   </body>
 </html>
