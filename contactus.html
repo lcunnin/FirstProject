@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="./assets/Bootstrap 5.0.0/">
-    <link rel="stylesheet" href="./assets/style.css">
+  <title>The Plant Shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&display=swap" >
+  <link rel="stylesheet" href="./assets/Bootstrap%205.0.0/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <header>
@@ -24,7 +25,7 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cacti.html">Shop</a>
+                <a class="nav-link" href="#">Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contactus.html">Contact Us</a>
@@ -36,26 +37,41 @@
     </header>
     <main>
       <div class="shop-name-container">
-        <img src="./assets/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Rubber Tree Background">
-      <div class="shop-name-title">The Plant Shop</div>
+        <div class="shop-name-title">The Plant Shop</div>
+        <img class="shop-name-background" src="./assets/images/scott-webb-oRWRlTgBrPo-unsplash.jpg" alt="Rubber Tree Background">
       </div>
-      <div class="contact-us-form">
-        <legend class="contact-us">Contact Us</legend>
-        <form class="contact-form">
-            <fieldset>
-            First Name: <input name="firstname" type="text" placeholder="Enter your first name">
-            Last Name: <input name="lastName" type="text" placeholder="Enter your last name">
-            Email Address: <input name="emailaddress" type="text" placeholder="Enter your e-mail addresss">
-            Message: <input name="message" type="text" placeholder="Enter Message Here">
-            </fieldset>
-            <input type="submit" value="Submit" /> 
-      </div>
-      <div class="social-media">
-        <img href="https://www.facebook.com/" src="./assets/images/facebook-square-brands.svg" class="facebook"></a> 
-        <img href="https://www.pinterest.com/" src="./assets/images/pinterest-square-brands.svg" class="pinterest"></a>
-        <img href="https://www.instagram.com/?hl=en" src="./assets/images/instagram-square-brands.svg" class="instagram"></a> 
-      </div>
-    </main>
-    <script src="./assets/Bootstrap 5.0.0/js/bootstrap.bundle.js"></script>
-</body>
-</html>
+      <form>
+        <fieldset class="contact-form">
+          <legend class="contact-us">Contact Us</legend>
+            <div class="form-group">
+              <label for="exampleInputName1">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputName1" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea">Message</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3">Your message here</textarea>
+          </div>
+          <button type="submit" class="contact-submit-button">Submit</button>
+        </fieldset>
+       </form>
+      </main> 
+       <footer>
+        <div class="social-media">
+          <a href="https://www.facebook.com/"></a>
+          <img class="social-media-img" src="./assets/images/facebook-square-brands.svg" alt="Facebook Icon">
+          <a href="https://www.pinterest.com/"></a>
+          <img class="social-media-img" src="./assets/images/pinterest-square-brands.svg" alt="Pinterest Icon">
+          <a href="https://www.instagram.com/?hl=en"></a>
+          <img class="social-media-img" src="./assets/images/instagram-square-brands.svg" alt="Instagram Icon">
+        </div>
+        <div class="copyright">
+              Copyright © The Plant Shop
+        </div>
+      </footer>
+      <script src="./assets/Bootstrap%205.0.0/js/bootstrap.bundle.js"></script>
+    </body>
+  </html>

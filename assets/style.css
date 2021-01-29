@@ -30,23 +30,23 @@ body {
 
 .shop-name-container {
     display: flex;
-    position: relative;
-    padding: 0px 0px 20px 0px;
     font-family: 'Dancing Script', cursive;
     color: black;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.shop-name-title {
+    padding-top: 10%;
+    font-size: 5rem;
 }
 
 .shop-name-background {
     display: flex;
     width: 100%;
     height: 600px;
-}
-
-.shop-name-title {
-    background-color: rgba(255, 255, 255, 0.15);
-    top: 10%;
-    padding-top: 10%;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0%;
 }
 
 
@@ -58,16 +58,15 @@ body {
 
 /* Snake Plant Photo by Sarah Bronske "https://unsplash.com/s/photos/snake-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
-.favorites-carousel {
-    text-align: center;
-    position: center;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .favorites-carousel-header {
     font-size: 4rem;
+    text-align: center;
+}
+
+.favorites-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .carousel-indicators {
@@ -86,7 +85,7 @@ body {
 
 .carousel-inner {
     height: 600px;
-    margin: 10px, 0, 10px, 0;
+
 }
 
 .visually-hidden {
@@ -100,20 +99,26 @@ body {
     background: var(--background-primary); 
     width: 100%;
     display: flex;
+    margin: 15px auto;
 }
 
 .about-us h2 {
     font-size: 4rem;
-    padding-top: 10px;
+    margin: 50px;
+    padding-top: 7%;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .about-us p {
     font-size: 3rem;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .business-owner {
-    width: 300px;
+  height: 600px;
 }
 
 /* Cactus image by Mat Reding "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
@@ -124,7 +129,7 @@ body {
 
 .shop-options {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
     justify-content: center;
 }
 
@@ -134,13 +139,13 @@ body {
 }
 
 .shop-cacti-image {
-    width: 400px;
+    height: 400px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
 
 .shop-houseplants-image {
-    height: 590px;
+    height: 400px;
     padding: 10px 10px 10px 10px;
     border-color: var(--font-primary);
 }
@@ -167,7 +172,6 @@ body {
 }
 
 .subscribe-form {
-    width: 100%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -178,7 +182,9 @@ body {
 
 .subscribe-button {
     border: none;
+    padding: 5px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4)
+
 }
 
 .social-media {
@@ -190,9 +196,8 @@ body {
 }
 
 .social-media-img {
-    width: 90px;
+    width: 70px;
 }
-
 
 .copyright {
     text-align: center;
@@ -202,26 +207,17 @@ body {
 
 /* cacti.html */
 
-.hawthoria-plant {
-    width: 600px;
-    padding: 10px 10px 10px 10px;
-}
-
-.cactus-plant {
-    width: 600px;
-    padding: 10px 10px 10px 10px;
-}
-
-.aloe-vera-plant {
-    width: 600px;
-    padding: 10px 10px 10px 10px;
-}
-
-.cacti-succulent-options h2 {
+.cactus-succulent-title h2 {
     width: 100%;
     font-size: 4rem;
     text-align: center;
     padding: 10px;
+}
+
+.cacti-succulent-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cacti-succulent-options h3 {
@@ -230,23 +226,54 @@ body {
     margin-bottom: 15px;
 }
 
-.shop-name-container {
-    display: flex;
-    position: center;
+.cacti-succulent-options p {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hawthoria-plant {
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.cactus-plant {
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+.aloe-vera-plant {
+    width: 200px;
+    padding: 10px 10px 10px 10px;
 }
 
 /* Contact Us */
 
+.contact-form {
+    display: block;
+    margin-top: 20px;
+}
+
 .contact-us {
     font-size: 3rem;
+    margin-left: 30px;
 }
 
-.contact-form {
-    position: center;
+.form-group {
     font-size: 2rem;
+    margin: 5px 30px 5px 30px;
+    width: 600px;
 }
 
-@media only screen and (min-width: 728) {
+.contact-submit-button {
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 728px) {
     .shop-options {
         display: flex;
         flex-wrap: wrap;
