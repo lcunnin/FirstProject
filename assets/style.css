@@ -42,11 +42,10 @@ a {
 
 h1 {
     padding-top: 10%;
-    font-size: 20rem;
+    font-size: 15rem;
     position: absolute;
     width: 100%;
 }
-
 
 .shop-name-background {
     width: 100%;
@@ -64,7 +63,7 @@ h1 {
 /* Snake Plant Photo by Sarah Bronske "https://unsplash.com/s/photos/snake-plant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
 
 .favorites-carousel-header {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -120,7 +119,7 @@ h1 {
 }
 
 .business-owner {
-  height: 600px;
+  height: 700px;
 }
 
 /* Cactus image by Mat Reding "https://unsplash.com/s/photos/cactus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" */
@@ -136,9 +135,9 @@ h1 {
     text-decoration: none;
 }
 
-.shop-options h3 {
+.shop-options {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--font-primary);
 }
 
@@ -166,7 +165,7 @@ h1 {
     text-align: center;
 }
 
-.business-information h3 {
+.business-information {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -235,7 +234,7 @@ h1 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 20px;
     margin-bottom: 15px;
     text-align: center;
@@ -248,8 +247,8 @@ p {
 }
 
 .plant-prices img {
-    height: 450px;
-    margin: 10px auto;
+    height: 500px;
+    margin: 20px auto;
 }
 
 .cactus-plants-prices {
@@ -298,4 +297,41 @@ p {
     margin-top: 10px;
     margin-left: 30px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 700px) {
+    .about-us {
+        display: flex;
+        flex-wrap: wrap;
+        width: 625px;
+    }
+
+    .business-owner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 620px;
+    }
+
+    .cacti-succulent-image {
+        width: 100%   
+    }
+
+    .cactus-plants-prices {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .houseplant-prices {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .pet-friendly-prices {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
