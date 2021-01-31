@@ -1,5 +1,7 @@
 # FirstProject - The Plant Shop
 
+A website for a plant shop that is family owned. The plants are sold in three categories; cacti + succulents, houseplants and pet-friendly. The main page provides links to the page where the plant prices can be found as well as a link to a contact page.
+
 User Stories
 1. As a customer
    I want to shop for well cared for plants
